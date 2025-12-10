@@ -1,0 +1,25 @@
+{
+  "name": "zenkoutei-app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "全肯定さん - Gemini APIを使用するチャットボット",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "api": "node server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "vue": "^3.4.21",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.1.6",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.35",
+    "autoprefixer": "^10.4.18"
+  }
+}
