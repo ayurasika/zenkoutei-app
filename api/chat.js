@@ -96,7 +96,7 @@ export default async function chatHandler(req, res) {
       })
     }
 
-    const apiKey = process.env.GEMINI_API_KEY
+    const apiKey =process.env.VERCEL_GEMINI_API_KEY
     if (!apiKey) {
       console.error('❌ GEMINI_API_KEY が設定されていません')
       return res.status(500).json({ 
